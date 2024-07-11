@@ -1,0 +1,49 @@
+body{
+    background-color:lightgrey;
+}
+.items {display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+.item img{
+width: 300px;
+height: 300px;
+object-fit: cover;
+cursor: pointer;
+transition: 0.2s ease;
+}
+.item  img:hover{
+transform: scale(1.04);
+}
+.item h4 {
+padding: 5px;
+text-align: left-side;
+font-size: 30px;
+}
+.item button{ 
+padding: 5px 30px;
+background-color: rosybrown;
+border:10px solied black;
+color: white;
+cursor: pointer;
+border-radius: 1px;
+font-size: 20px ;
+display: block ;
+margin: center; 
+transition: 0.2s all;
+}
+.item button:hover{
+transform: scale(1.08);
+}
+@media screen and (max-width:1000px){
+    .items{
+    grid-template-columns: repeat(2, 1fr);
+    }
+    }
+    @media screen and (max-width:768px){
+    .items{
+    grid-template-columns: repeat(1, 1fr);
+    }
+    }

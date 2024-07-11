@@ -1,0 +1,19 @@
+body{
+    background-color:lightgrey;
+}
+.zx button{
+    padding: 5px 30px;
+    background-color: rosybrown;
+    border:10px solied black;
+    color: white;
+    cursor: pointer;
+    border-radius: 1px;
+    font-size: 20px ;
+    display: block ;
+    margin: center; 
+    transition: 0.2s all;
+    }
+    .zx h2 {
+    padding: 5px;
+    text-align: left-side;
+    font-size: 20px;}
